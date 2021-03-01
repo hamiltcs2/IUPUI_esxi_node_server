@@ -21,6 +21,7 @@ exports.writeMany = (req, res) => {
 
     const uri = 'mongodb+srv://barney:3j7PwWEXxCSisliq@cluster0.pqpdf.mongodb.net/learning_mongo?retryWrites=true&w=majority';
 
+    //////////////////////////////////////////////////////////////////////////////////////////
     // SET A CONSTANT THAT HOLDS THE DB NAME
 
     const dbName = "learning_mongo";

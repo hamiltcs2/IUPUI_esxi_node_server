@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 
 var Vsphere = require('vsphere');
-var host = '192.168.56.103';
+var host = 'ip address';
 var user = 'root';
-var password = 'f=B+4h$';
+var password = 'password';
 var sslVerify = false;
 var vc = new Vsphere.Client(host, user, password, sslVerify);
 vc.once('ready', function() {

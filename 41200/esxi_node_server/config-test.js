@@ -4,9 +4,9 @@
 // name the file config-test.js
 
 var vCenterTestCreds = {
-	'vCenterIP' : '192.168.56.103',
+	'vCenterIP' : 'Ip address',
 	'vCenterUser' : 'root',
-	'vCenterPassword' : 'f=B+4h$',
+	'vCenterPassword' : 'password',
 	'vCenter' : true
 };
 exports.vCenterTestCreds = vCenterTestCreds;
